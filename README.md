@@ -9,14 +9,14 @@ The project uses a subset of NBA regular season data (2010–2013) to explore ho
 
 ## Key Question
 
-> Which has a greater influence on NBA match outcomes—travel demands or fixture congestion—and how do these effects vary when accounting for team strength and home/away status?
+> Which has a greater influence on NBA match outcomes—travel demands, fixture congestion, team strength, or Home/Away advantage?
 
 ## Project Structure
 
 The code is split into four clearly documented scripts, which should be run in the following order:
 
 1. **`NBA_Data_Scraping_EarlyWrangle.R`**  
-   - Scrapes regular season match data from 2010–2023 using the `airball` package.
+   - Scrapes regular season match data from 2010–2023 using the `airball` package by Jose Fernandez (2020) - <https://github.com/josedv82/airball>.
    - Calculates travel-related variables such as air distance, time zone changes, and rest days.
    - Outputs a cleaned and filtered dataset (`NBA_data1.xlsx`).
 
@@ -61,5 +61,5 @@ The code is split into four clearly documented scripts, which should be run in t
 Anthony Clark  
 PhD Candidate, Sport and Exercise Physiology  
 Leeds Beckett University  
-GitHub: [your-username]  
+GitHub: [antmanSA93]  
 Date: May 2025
